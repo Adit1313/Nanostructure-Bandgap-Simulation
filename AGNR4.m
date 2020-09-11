@@ -1,5 +1,9 @@
+%{
+This MATLAB code is a simulation which calculates the bandgap energy of a 
+4-Armchair Graphene Nanoribbon and plots the E-K diagram.
+%}
 close all;
-clear all;
+clear;
 clc;
 
 n = 4;
