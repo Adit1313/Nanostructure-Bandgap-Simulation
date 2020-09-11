@@ -1,7 +1,6 @@
 close all;
 clear all;
 clc;
-fprintf('\t\t\t<<< Example 1: 4-ARMCHAIR GRAPHENE NANORIBBON (E-K Diagram) >>>\n\n\n');
 
 n = 4;
 N_Ring_Unit = 2;
