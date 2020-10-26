@@ -86,7 +86,7 @@ H0=zeros(N_Unit,N_Unit);
 HL=zeros(N_Unit,N_Unit);
 HR=zeros(N_Unit,N_Unit);
 
-% Fill left,middle and right unitcells
+% Fill left, middle and right unit cells
 for i=1:N_Unit
     atom_xl(i)=atom_x(i);
     atom_yl(i)=atom_y(i);
@@ -174,7 +174,7 @@ for j=1:N_Unit
     end
 end
 
-fprintf('\t\t\t-> Done!\n\n');
+fprintf('\t\t\t> Done!\n\n');
 disp=[];
 p=1;
 for ka=-pi:2*pi/500:pi
@@ -202,6 +202,6 @@ ylabel('Energy(ev)');
 string = sprintf('BG = %.2f eV, %d-AGNR',GAP,n);
 legend(string);
 
-fprintf('\t\t-> done, Pristine Band Gap = %.2f eV\n\n',GAP);
-fprintf('\n\n-> Done!\n\n');
-fprintf('\n\n\n\t\t\t<<< Simulation Is Complete >');
+fprintf('\t\t> done, Pristine Band Gap = %.2f eV\n\n',GAP);
+fprintf('\n\n> Done!\n\n');
+fprintf('\n\n\nSimulation Is Complete');
